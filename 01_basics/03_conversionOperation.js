@@ -42,6 +42,26 @@ let negValue = -value
 let str1 = "hello"
 let str2 = " Indrajeet"
 let str3 = str1 + str2
-console.log(str3);
+//console.log(str3);
+
+// If string is first then the conversion is string.
 console.log("1" + 2);
 console.log(1 + "2");
+// If number is first then the conversion is num.
+console.log(1 + 2 + "2");
+
+let gameCounter = 100
+/* this is postfix, If used postfix, 
+with operator after operand (for example, x++), 
+the increment operator increments and returns 
+the value before incrementing. */
+gameCounter++ 
+/* this is prefix, If used prefix, 
+with operator before operand (for example, ++x), 
+the increment operator increments and returns 
+the value after incrementing. */
+++gameCounter 
+console.log(gameCounter);
+
+// link to Study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-abstract-operations
