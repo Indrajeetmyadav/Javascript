@@ -27,3 +27,9 @@ console.log(newString);
 // Using slice we pass the negative number also and print reverse string.
 const otherName = gameName.slice(-9, 4)
 console.log(otherName);
+
+// Use for remove spaces.
+const newStringOne = "    indrajeet    "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
