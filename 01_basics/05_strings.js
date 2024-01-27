@@ -33,3 +33,11 @@ const newStringOne = "    indrajeet    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
+const url = "https://indrajeet.com/indrajeet%20yadav"
+console.log(url);
+// replacing the value.
+console.log(url.replace('%20', '-'));
+
+// includes use for checking the values includes or not.
+console.log(url.includes('indrajeet'));
+console.log(url.includes('www'));
