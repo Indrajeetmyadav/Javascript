@@ -1,6 +1,6 @@
 // String declaration.
 const name = "indrajeet"
-const gameName = new String('indrajeety') // Its a key value pair storing.
+const gameName = new String('indrajeet-y') // Its a key value pair storing.
 const repoCount = 25
 
 console.log(name + repoCount + " Value");
@@ -41,3 +41,11 @@ console.log(url.replace('%20', '-'));
 // includes use for checking the values includes or not.
 console.log(url.includes('indrajeet'));
 console.log(url.includes('www'));
+
+// Use for array format output using split.
+// Using String methods.
+console.log(gameName.split('-'));
+console.log(gameName.bold());
+console.log(gameName.lastIndexOf('e'));
+console.log(gameName.endsWith('e'));
+console.log(gameName.endsWith('y'));
